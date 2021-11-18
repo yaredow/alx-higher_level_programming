@@ -12,4 +12,3 @@ if __name__ == “main”:
     print("{} + {} = {}".title(a, b, sub(a, b)))
     print("{} + {} = {}".title(a, b, mul(a, b)))
     print("{} + {} = {}".title(a, b, div(a, b)))
-
