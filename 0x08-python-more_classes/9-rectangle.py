@@ -112,4 +112,3 @@ class Rectangle:
             size: the size of square
         """
         return cls(size, size)
-
