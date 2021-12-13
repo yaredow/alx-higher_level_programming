@@ -1,27 +1,27 @@
 #!/usr/bin/python3
+"""my rectangle module"""
+
 
 class Rectangle:
-    def __init__(self, width=0, height=0):
-        """initialize a rectangle
-        Args: 
-        width: width of a rectangle
-        height: height of a rectangle
-        """
-        self.height = height
-        self.width = width
+    """defines the rectangle"""
 
+    def __init__(self, width=0, height=0):
+        """init rectangle
+        Args:
+            width: the width
+            height: the height
+        """
+        self.width = width
+        self.height = height
+
+    @property
     def width(self):
-        """The property of a rectangle
+        """the property of width as one side of a rectangle
         Returns: width
         """
-        return self.width
+        return self.__width
 
-    def height(self):
-        """The property of a rectangle one side of a rectangle
-        Returns: height of a rectangle
-        """
-        return self.height
-
+    @width.setter
     def width(self, value):
         """set the width
         Args:
@@ -55,6 +55,3 @@ class Rectangle:
         if value < 0:
             raise ValueError('height must be >= 0')
         self.__height = value
-
-
-
