@@ -1,4 +1,3 @@
-
 # !/usr/bin/python3
 """lookup method module - no tests cases needed"""
 
