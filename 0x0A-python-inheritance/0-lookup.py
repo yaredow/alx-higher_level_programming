@@ -1,6 +1,6 @@
 
 # !/usr/bin/python3
-"""lookup method module - no test cases needed"""
+"""lookup method module - no tests cases needed"""
 
 
 def lookup(obj):
