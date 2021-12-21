@@ -4,5 +4,5 @@
 
 def number_of_lines(filename=""):
     """to read # of lines"""
-    with open(filename, "r", encoding="utf-8") as content:
-        return len(content.readlines())
+    with open(filename, mode="w+", encoding="utf-8") as content:
+        content.write("text")
