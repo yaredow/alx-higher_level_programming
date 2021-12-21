@@ -5,5 +5,5 @@
 def read_file(filename=""):
     """Read a text file"""
     with open("filename, 'r', encoding='utf-8'") as f:
-        file = f.read()
-        print(file, end="")
+        text = f.read()
+        print(text, end="")
