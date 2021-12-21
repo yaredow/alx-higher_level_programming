@@ -1,7 +1,9 @@
 #!/usr/bin/python3
-"""My return number of lines module"""
+"""write_file module"""
 
 
 def write_file(filename="", text=""):
-    with open(filename, mode="w+", encoding='utf-8') as file:
-        return file.write(text)
+    """writes a string to a text file (UTF8) and returns the number of
+        characters written"""
+    with open(filename, "w", encoding="utf-8") as content:
+        return content.write(text)
