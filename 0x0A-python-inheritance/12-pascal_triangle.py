@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""modue for p_tri"""
+"""module for p_tri"""
 
 
 def pascal_triangle(n):
