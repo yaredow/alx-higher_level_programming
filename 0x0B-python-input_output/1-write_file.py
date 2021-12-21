@@ -4,6 +4,6 @@
 
 def write_file(filename="", text=""):
     """writes text to a string"""
-    with open(filename, mode="w", encoding="utf-8") as f:
-        return len(f.readline())
+    with open(filename, encoding="utf-8") as f:
+        return f.write("string")
 
