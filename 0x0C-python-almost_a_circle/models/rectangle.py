@@ -74,12 +74,12 @@ class Rectangle(Base):
     def display(self):
         '''to print string rep of a rectangle'''
         rep = '\n' * self.y + \
-            (' ' * self.x + '#' * self.width + '\n') * self.height
+              (' ' * self.x + '#' * self.width + '\n') * self.height
         print(rep, end='')
 
     def __str__(self):
         '''str info about a rectangle'''
-        return '[{}] ({}) {}/{} - {}/{}'.\
+        return '[{}] ({}) {}/{} - {}/{}'. \
             format(type(self).__name__, self.id, self.x, self.y, self.width,
                    self.height)
 
