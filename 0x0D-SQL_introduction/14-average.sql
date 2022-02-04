@@ -1,6 +1,3 @@
--- Lists all records of the table second_table having a name value.
--- Records are ordered by descending score.
-SELECT `score`, `name`
-FROM `second_table`
-WHERE `name` != ""
-ORDER BY `score` DESC
+-- Computes the average score of all records in the table second_table.
+SELECT AVG(`score`) AS `average`
+FROM `second_table`;
